@@ -1,31 +1,21 @@
-# C++ Yahtzee-Game
+## Yahtzee (C++)
 
 A simple console-based implementation of the classic Yahtzee dice game, written in C++.
 
-# Features
-Roll five six-sided dice.
-Reroll selected dice up to two times per turn.
-13 traditional Yahtzee scoring categories.
-Automatic score calculation and scorecard tracking.
-Bonus points for reaching 63 points in the upper section.
-Additional Yahtzee bonus scoring.
+## Features
+- Roll five six-sided dice.
+- Reroll selected dice up to two times per turn.
+- 13 traditional Yahtzee scoring categories.
+- Automatic score calculation and scorecard tracking.
+- Bonus points for reaching 63 points in the upper section.
+- Additional Yahtzee bonus scoring.
 
-Compilation
+## Compilation
+
 Compile the project using g++:
 
-
-bash
+```bash
 g++ game.cpp yahtzee.cpp -o yahtzee
-Run the executable:
-
-
-bash
-./yahtzee
-On Windows:
-
-
-bash
-yahtzee.exe
 
 # How to Play
 1. Roll the five dice.
@@ -34,3 +24,15 @@ yahtzee.exe
 4. You can roll up to three times per turn.
 5. Choose one of the 13 scoring categories.
 6. Repeat until all the slots have been filled.
+
+Run the executable:
+
+
+```bash
+./yahtzee
+
+On Windows:
+
+
+```bash
+yahtzee.exe
