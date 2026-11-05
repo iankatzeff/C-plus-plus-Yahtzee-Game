@@ -16,7 +16,7 @@ Compile the project using g++:
 
 ```bash
 g++ game.cpp yahtzee.cpp -o yahtzee
-
+```
 # How to Play
 1. Roll the five dice.
 2. Decide whether to reroll.
@@ -30,9 +30,15 @@ Run the executable:
 
 ```bash
 ./yahtzee
-
+```
 On Windows:
 
 
 ```bash
 yahtzee.exe
+```
+
+## Files
+- `game.cpp` – Main game logic and player interaction.
+- `yahtzee.hpp` – Scoring function declarations.
+- `yahtzee.cpp` – Scoring calculations and sorting algorithm.
